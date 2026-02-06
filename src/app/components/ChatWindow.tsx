@@ -20,7 +20,7 @@ export default function ChatWindow({ messages }: ChatWindowProps) {
   }, [messages]);
 
   return (
-    <div className="flex-1 flex flex-col bg-gray-900">
+    <div className="flex-1 flex flex-col" style={{ backgroundColor: '#212121' }}>
       <div className="flex-1 overflow-y-auto py-6">
         {messages.length === 0 ? (
           <div className="flex items-center justify-center h-full">

@@ -22,7 +22,7 @@ export default function ChatInput({
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-gray-900 border-t border-gray-700 px-6 py-4">
+    <form onSubmit={handleSubmit} className="bg-[#212121] border-t border-gray-700 px-6 py-4">
       <div className="max-w-4xl mx-auto flex gap-3">
         <input
           type="text"

@@ -182,7 +182,7 @@ export default function ChatApp() {
         {activeConversation ? (
           <>
             {/* Chat Header */}
-            <div className="bg-gray-900 border-b border-gray-700 p-4 shadow-sm">
+            <div className="border-b border-gray-700 p-4 shadow-sm" style={{ backgroundColor: '#212121' }}>
               <h1 className="text-xl font-semibold text-white">
                 {activeConversation.title}
               </h1>
@@ -198,7 +198,7 @@ export default function ChatApp() {
             <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
           </>
         ) : (
-          <div className="flex-1 flex items-center justify-center bg-gray-900">
+          <div className="flex-1 flex items-center justify-center" style={{ backgroundColor: '#212121' }}>
             <div className="text-center">
               <h1 className="text-4xl font-bold text-white mb-4">
                 Welcome to Chat
